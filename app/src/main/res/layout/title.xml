@@ -4,7 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize">
-
+    <Button
+        android:id="@+id/nav_button"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_menu_48px"/>
     <TextView
         android:id="@+id/title_city"
         android:layout_width="wrap_content"
@@ -17,9 +24,17 @@
         android:id="@+id/titile_update_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10sp"
+        android:layout_marginRight="35sp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:textColor="#fff"
         android:textSize="16sp" />
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/conties_64px"/>
 </RelativeLayout>
